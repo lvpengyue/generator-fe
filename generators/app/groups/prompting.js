@@ -23,7 +23,7 @@ module.exports = {
             type: 'input',
             name: 'description',
             message: chalk.white.bold('description                [3/3] '),
-            default: 'Weiresearch font-end application'
+            default: 'UX font-end application'
         }]).then((answers) => {
             Object.assign(this.props, answers);
         });

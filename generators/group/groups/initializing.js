@@ -9,7 +9,7 @@ const chalk = require('chalk');
 module.exports = {
     initializing() {
         this.log(chalk.white.bold(`\nWelcome to ${chalk.magenta('generator-fe')}!`));
-        this.log(chalk.white.bold(`Yeoman generator for front-end application, based on ${chalk.magenta('Weire Front-end Integrated Solution')}\n`));
+        this.log(chalk.white.bold(`Yeoman generator for front-end application, based on ${chalk.magenta('Ux Front-end Integrated Solution')}\n`));
         this.log(chalk.white.bold('This generator is used to set up a new application / group, it will:'));
         this.log(chalk.white.bold('1. Prompt to configure your application / group'));
         this.log(chalk.white.bold('2. Generate all the boilerplate you need to get started'));

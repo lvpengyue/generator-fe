@@ -26,7 +26,7 @@ module.exports = {
             type: 'input',
             name: 'description',
             message: chalk.white.bold('description                [3/5] '),
-            default: 'Weiresearch font-end application group'
+            default: 'UX font-end application group'
         }, {
             type: 'list',
             name: 'platform',
