@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+
+    background-color: #fff;
+}
+
+#app {
+    position: relative;
+
+    width: 100%;
+    min-height: 100%;
+
+    .page-wrapper {<% if (platform === 'PC') { %>
+        width: 1200px;<% } else if (platform === 'mobile') { %>
+        width: 750px;<% } %>
+        margin: 0 auto;
+    }
+}
