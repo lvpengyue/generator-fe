@@ -2,7 +2,7 @@ import Vue from 'vue';<% if (platform === 'PC') { %>
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';<% } else if (platform === 'mobile') { %>
 import Vant from 'Vant';
-import 'Vant/lib/vant-css/index.css';<% } %>
+import 'Vant/lib/vant-css/index.css';
 import 'Vant/lib/vant-css/icon-local.css';<% } %>
 import $router from './components/utils/$router';
 import $store from './components/utils/$store';
