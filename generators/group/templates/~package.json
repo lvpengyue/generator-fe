@@ -78,7 +78,7 @@
     "vuex-persistedstate": "^1.4.1",
     "normalizr": "^3.1.0",
     "localforage": "^1.5.0",
-    <% if (platform === 'mobile') { %>"mint-ui": "^2.2.7",<% } %>
+    <% if (platform === 'mobile') { %>"vant": "^1.1.0",<% } %>
     <% if (platform === 'PC') { %>"iview": "^2.1.0",<% } %>
     <%# additional components %>
     <% if (components.indexOf('echarts') !== -1) { %>"echarts": "^3.5.4",<% } %>
