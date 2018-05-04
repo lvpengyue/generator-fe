@@ -14,8 +14,9 @@ module.exports = [
     'iview',
     'iview/dist/styles/iview.css',<% } %>
     <% if (platform === 'mobile') { %>
-    'mint-ui',
-    'mint-ui/lib/style.css',<% } %>
+    'vant',
+    'vant/lib/vant-css/icon-local.css',
+    'vant/lib/vant-css/index.css',<% } %>
     <% if (components.indexOf('echarts') !== -1) { %>'echarts',<% } %>
     <% if (components.indexOf('moment') !== -1) { %>'moment',<% } %>
     <% if (components.indexOf('url-parse') !== -1) { %>'url-parse',<% } %>
