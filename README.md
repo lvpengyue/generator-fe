@@ -1,12 +1,12 @@
 # generator-fe
-前端工程脚手架，基于 `Yeoman` 和 `微瑞前端集成解决方案` 构建，用于：
+前端工程脚手架，基于 `Yeoman` 和 `悠洗前端集成解决方案` 构建，用于：
 * 快速生成并初始化标准格式的项目（组）；
 * 提供统一的开发规范、构建脚本、基础配置和初始代码；
 * 内置前端集成解决方案，快速实现底层通用功能；
 
 ## 安装
 1. 执行命令 `npm install -g yo`，在本地全局安装 yeoman；
-2. 在 gitlab 上 `clone` 项目 `git@git.weiresearch.com:wfe/generator-fe.git`；
+2. 在 gitlab 上 `clone` 项目 `https://github.com/lvpengyue/generator-fe.git`；
 3. 在 generator-fe 项目的根路径下执行命令 `npm link`，创建全局链接；
 
 ## 基本概念
